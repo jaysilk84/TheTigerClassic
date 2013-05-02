@@ -1,0 +1,73 @@
+/* Main marketing message and sign up button */
+.jumbotron {
+
+  .masthead {
+    margin: 80px 0;
+    text-align: center;
+
+    background-image: url('tiger_background_v3.png');
+    background-repeat: no-repeat;
+    background-position: center;
+
+    h1 {
+      font-size: 100px;
+      line-height: 1;
+    }
+
+    .lead {
+      font-size: 24px;
+      line-height: 1.25;
+    }
+
+    .btn {
+      font-size: 21px;
+      padding: 14px 24px;
+    }
+
+    hr {
+      margin-top: 60px;
+      margin-bottom: 0;
+    }
+  }
+
+  .subhead {
+    position: relative;
+    text-align: center;
+    /*background: -webkit-linear-gradient(0deg, #570301 0%, #272b30 100%);  Chrome10+,Safari5.1+ */
+    /*background: -webkit-linear-gradient(45deg, #a40101 0%, #a42001 100%);*/
+    background: -webkit-linear-gradient(45deg, #17103f 0%, #170c5f 100%);
+    margin-top: -20px;
+    margin-bottom: 40px;
+    padding: 40px 0;
+    text-align: left;
+    color: #fff;
+
+    h1 {
+      font-size: 60px;
+      letter-spacing: -1px;
+
+    }
+
+    p {
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 1.25;
+      margin-bottom: 0;
+    }
+
+    &.dimpled-texture:after {
+      background-image: url('dimpled.jpg');
+      opacity: .1;
+      content:'';
+      position:absolute;
+      top:0;
+      bottom:0;
+      left:0;
+      right:0;
+
+    }
+
+  }
+}
+
+

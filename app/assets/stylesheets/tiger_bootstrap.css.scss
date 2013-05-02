@@ -1,0 +1,28 @@
+@import "bootswatch/slate/variables";
+
+@import "bootstrap";
+body { padding-top: 60px; }
+@import "bootstrap-responsive";
+@import "font-awesome";
+@import "bootswatch/slate/bootswatch";
+/*@import "justified_nav";*/
+@import "jumbotron";
+
+/* override brand */
+.navbar .brand {
+	font-size: 22px;
+}
+section {
+	margin-top: 60px;
+}
+.accent {
+
+  	background: -webkit-linear-gradient(#fe0000, #C8C8C8);
+  	-webkit-background-clip: text;
+  	-webkit-text-fill-color: transparent;
+  	color:#c30101; /* fall back to solid color fill */
+}
+
+i {
+	margin-right:5px;
+}
